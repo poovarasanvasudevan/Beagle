@@ -1,5 +1,4 @@
 
-
 .sdropdownmenu {
     margin-top: 0px !important;
 }
@@ -7,6 +6,21 @@
 .pad17 {
     padding: 17px !important;
 }
+
 .pt12 {
     padding-top: 12px !important;
+}
+
+.be-connections .be-scroller {
+    position: relative;
+    height: 325px;
+}
+
+body {
+    height: 87% !important;
+}
+
+.profile-cust {
+    margin-top: 16px !important;
+    border: none !important;
 }

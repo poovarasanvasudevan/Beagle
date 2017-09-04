@@ -1,10 +1,10 @@
 <nav class="navbar navbar-default navbar-fixed-top be-top-header">
     <div class="container-fluid">
-        <div class="navbar-header"><a href="index.html" class="navbar-brand"></a></div>
+        <div class="navbar-header"><a href="/" class="navbar-brand"></a></div>
         <div class="be-right-navbar">
             <ul class="nav navbar-nav navbar-right be-user-nav pt12">
                 <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="assets/img/avatar.png" alt="Avatar"><span class="user-name">Túpac Amaru</span></a>
-                    <ul role="menu" class="dropdown-menu">
+                    <ul role="menu" class="dropdown-menu profile-cust">
                         <li>
                             <div class="user-info">
                                 <div class="user-name">Túpac Amaru</div>
@@ -56,27 +56,36 @@
                 <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><span class="icon mdi mdi-apps"></span></a>
                     <ul class="dropdown-menu be-connections sdropdownmenu">
                         <li>
+                            <div class="title">Beagle Apps</div>
                             <div class="list">
-                                <div class="content">
-                                    <div class="row">
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/cloudstorage.png" alt="Github"><span>Storage</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/messaging.png" alt="Bitbucket"><span>Messaging</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/payment.png" alt="Slack"><span>Payment</span></a></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/location.png" alt="Dribbble"><span>Location</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/chatbot.png" alt="Mail Chimp"><span>ChatBot</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/mobileui.png" alt="Dropbox"><span>Mobile UI</span></a></div>
-                                    </div>
+                                <div class="be-scroller">
+                                    <div class="content">
+                                        <div class="row">
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/cloudstorage.png" alt="Github"><span>Storage</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/messaging.png" alt="Bitbucket"><span>Messaging</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/payment.png" alt="Slack"><span>Payment</span></a></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/location.png" alt="Dribbble"><span>Location</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/chatbot.png" alt="Mail Chimp"><span>ChatBot</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/mobileui.png" alt="Dropbox"><span>Mobile UI</span></a></div>
+                                        </div>
 
-                                    <div class="row">
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/realtimedb.png" alt="Dribbble"><span>RealtimeDB</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/iptolocation.png" alt="Mail Chimp"><span>IP 2 Location</span></a></div>
-                                        <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/imagerecogination.png" alt="Dropbox"><span>Recogination</span></a></div>
+                                        <div class="row">
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/realtimedb.png" alt="Dribbble"><span>RealtimeDB</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/iptolocation.png" alt="Mail Chimp"><span>IP 2 Location</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/imagerecogination.png" alt="Dropbox"><span>Recogination</span></a></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/meetings.png" alt="Dribbble"><span>Meetings</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/audiocall.png" alt="Mail Chimp"><span>Calls</span></a></div>
+                                            <div class="col-xs-4"><a href="#" class="connection-item"><img src="/img/videocall.png" alt="Dropbox"><span>Video Call</span></a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="footer"> <a href="#">More</a></div>
+                            <div class="footer"> <a href="#">View All Apps</a></div>
                         </li>
                     </ul>
                 </li>

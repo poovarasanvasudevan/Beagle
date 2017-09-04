@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css"/>
 </head>
 <body>
-<div class="be-wrapper be-fixed-sidebar">
+<div class="be-wrapper be-fixed-sidebar be-color-header be-color-header-primary">
+    <!-- be-color-header be-color-header-danger-->
     {% block content %}{% endblock %}
 </div>
 
